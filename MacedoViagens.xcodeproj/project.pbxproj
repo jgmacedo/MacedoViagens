@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D63C5A582AE9AB3500A9066F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C5A572AE9AB3500A9066F /* AppDelegate.swift */; };
+		D63C5A5A2AE9AB3500A9066F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C5A592AE9AB3500A9066F /* SceneDelegate.swift */; };
+		D63C5A5C2AE9AB3500A9066F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C5A5B2AE9AB3500A9066F /* ViewController.swift */; };
+		D63C5A5F2AE9AB3500A9066F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D63C5A5D2AE9AB3500A9066F /* Main.storyboard */; };
+		D63C5A612AE9AB3800A9066F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D63C5A602AE9AB3800A9066F /* Assets.xcassets */; };
+		D63C5A642AE9AB3800A9066F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D63C5A622AE9AB3800A9066F /* LaunchScreen.storyboard */; };
+		D63C5A6F2AE9AB3800A9066F /* MacedoViagensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C5A6E2AE9AB3800A9066F /* MacedoViagensTests.swift */; };
+		D63C5A792AE9AB3800A9066F /* MacedoViagensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C5A782AE9AB3800A9066F /* MacedoViagensUITests.swift */; };
+		D63C5A7B2AE9AB3800A9066F /* MacedoViagensUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C5A7A2AE9AB3800A9066F /* MacedoViagensUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D63C5A6B2AE9AB3800A9066F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D63C5A4C2AE9AB3500A9066F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D63C5A532AE9AB3500A9066F;
+			remoteInfo = MacedoViagens;
+		};
+		D63C5A752AE9AB3800A9066F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D63C5A4C2AE9AB3500A9066F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D63C5A532AE9AB3500A9066F;
+			remoteInfo = MacedoViagens;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D63C5A542AE9AB3500A9066F /* MacedoViagens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacedoViagens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63C5A572AE9AB3500A9066F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D63C5A592AE9AB3500A9066F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D63C5A5B2AE9AB3500A9066F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D63C5A5E2AE9AB3500A9066F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D63C5A602AE9AB3800A9066F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D63C5A632AE9AB3800A9066F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D63C5A652AE9AB3800A9066F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D63C5A6A2AE9AB3800A9066F /* MacedoViagensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacedoViagensTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63C5A6E2AE9AB3800A9066F /* MacedoViagensTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacedoViagensTests.swift; sourceTree = "<group>"; };
+		D63C5A742AE9AB3800A9066F /* MacedoViagensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacedoViagensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63C5A782AE9AB3800A9066F /* MacedoViagensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacedoViagensUITests.swift; sourceTree = "<group>"; };
+		D63C5A7A2AE9AB3800A9066F /* MacedoViagensUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacedoViagensUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D63C5A512AE9AB3500A9066F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63C5A672AE9AB3800A9066F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63C5A712AE9AB3800A9066F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D63C5A4B2AE9AB3500A9066F = {
+			isa = PBXGroup;
+			children = (
+				D63C5A562AE9AB3500A9066F /* MacedoViagens */,
+				D63C5A6D2AE9AB3800A9066F /* MacedoViagensTests */,
+				D63C5A772AE9AB3800A9066F /* MacedoViagensUITests */,
+				D63C5A552AE9AB3500A9066F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D63C5A552AE9AB3500A9066F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D63C5A542AE9AB3500A9066F /* MacedoViagens.app */,
+				D63C5A6A2AE9AB3800A9066F /* MacedoViagensTests.xctest */,
+				D63C5A742AE9AB3800A9066F /* MacedoViagensUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D63C5A562AE9AB3500A9066F /* MacedoViagens */ = {
+			isa = PBXGroup;
+			children = (
+				D63C5A572AE9AB3500A9066F /* AppDelegate.swift */,
+				D63C5A592AE9AB3500A9066F /* SceneDelegate.swift */,
+				D63C5A5B2AE9AB3500A9066F /* ViewController.swift */,
+				D63C5A5D2AE9AB3500A9066F /* Main.storyboard */,
+				D63C5A602AE9AB3800A9066F /* Assets.xcassets */,
+				D63C5A622AE9AB3800A9066F /* LaunchScreen.storyboard */,
+				D63C5A652AE9AB3800A9066F /* Info.plist */,
+			);
+			path = MacedoViagens;
+			sourceTree = "<group>";
+		};
+		D63C5A6D2AE9AB3800A9066F /* MacedoViagensTests */ = {
+			isa = PBXGroup;
+			children = (
+				D63C5A6E2AE9AB3800A9066F /* MacedoViagensTests.swift */,
+			);
+			path = MacedoViagensTests;
+			sourceTree = "<group>";
+		};
+		D63C5A772AE9AB3800A9066F /* MacedoViagensUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D63C5A782AE9AB3800A9066F /* MacedoViagensUITests.swift */,
+				D63C5A7A2AE9AB3800A9066F /* MacedoViagensUITestsLaunchTests.swift */,
+			);
+			path = MacedoViagensUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D63C5A532AE9AB3500A9066F /* MacedoViagens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63C5A7E2AE9AB3800A9066F /* Build configuration list for PBXNativeTarget "MacedoViagens" */;
+			buildPhases = (
+				D63C5A502AE9AB3500A9066F /* Sources */,
+				D63C5A512AE9AB3500A9066F /* Frameworks */,
+				D63C5A522AE9AB3500A9066F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacedoViagens;
+			productName = MacedoViagens;
+			productReference = D63C5A542AE9AB3500A9066F /* MacedoViagens.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D63C5A692AE9AB3800A9066F /* MacedoViagensTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63C5A812AE9AB3800A9066F /* Build configuration list for PBXNativeTarget "MacedoViagensTests" */;
+			buildPhases = (
+				D63C5A662AE9AB3800A9066F /* Sources */,
+				D63C5A672AE9AB3800A9066F /* Frameworks */,
+				D63C5A682AE9AB3800A9066F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D63C5A6C2AE9AB3800A9066F /* PBXTargetDependency */,
+			);
+			name = MacedoViagensTests;
+			productName = MacedoViagensTests;
+			productReference = D63C5A6A2AE9AB3800A9066F /* MacedoViagensTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D63C5A732AE9AB3800A9066F /* MacedoViagensUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63C5A842AE9AB3800A9066F /* Build configuration list for PBXNativeTarget "MacedoViagensUITests" */;
+			buildPhases = (
+				D63C5A702AE9AB3800A9066F /* Sources */,
+				D63C5A712AE9AB3800A9066F /* Frameworks */,
+				D63C5A722AE9AB3800A9066F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D63C5A762AE9AB3800A9066F /* PBXTargetDependency */,
+			);
+			name = MacedoViagensUITests;
+			productName = MacedoViagensUITests;
+			productReference = D63C5A742AE9AB3800A9066F /* MacedoViagensUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D63C5A4C2AE9AB3500A9066F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D63C5A532AE9AB3500A9066F = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					D63C5A692AE9AB3800A9066F = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D63C5A532AE9AB3500A9066F;
+					};
+					D63C5A732AE9AB3800A9066F = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D63C5A532AE9AB3500A9066F;
+					};
+				};
+			};
+			buildConfigurationList = D63C5A4F2AE9AB3500A9066F /* Build configuration list for PBXProject "MacedoViagens" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D63C5A4B2AE9AB3500A9066F;
+			productRefGroup = D63C5A552AE9AB3500A9066F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D63C5A532AE9AB3500A9066F /* MacedoViagens */,
+				D63C5A692AE9AB3800A9066F /* MacedoViagensTests */,
+				D63C5A732AE9AB3800A9066F /* MacedoViagensUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D63C5A522AE9AB3500A9066F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63C5A642AE9AB3800A9066F /* LaunchScreen.storyboard in Resources */,
+				D63C5A612AE9AB3800A9066F /* Assets.xcassets in Resources */,
+				D63C5A5F2AE9AB3500A9066F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63C5A682AE9AB3800A9066F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63C5A722AE9AB3800A9066F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D63C5A502AE9AB3500A9066F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63C5A5C2AE9AB3500A9066F /* ViewController.swift in Sources */,
+				D63C5A582AE9AB3500A9066F /* AppDelegate.swift in Sources */,
+				D63C5A5A2AE9AB3500A9066F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63C5A662AE9AB3800A9066F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63C5A6F2AE9AB3800A9066F /* MacedoViagensTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63C5A702AE9AB3800A9066F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63C5A792AE9AB3800A9066F /* MacedoViagensUITests.swift in Sources */,
+				D63C5A7B2AE9AB3800A9066F /* MacedoViagensUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D63C5A6C2AE9AB3800A9066F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D63C5A532AE9AB3500A9066F /* MacedoViagens */;
+			targetProxy = D63C5A6B2AE9AB3800A9066F /* PBXContainerItemProxy */;
+		};
+		D63C5A762AE9AB3800A9066F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D63C5A532AE9AB3500A9066F /* MacedoViagens */;
+			targetProxy = D63C5A752AE9AB3800A9066F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D63C5A5D2AE9AB3500A9066F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D63C5A5E2AE9AB3500A9066F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D63C5A622AE9AB3800A9066F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D63C5A632AE9AB3800A9066F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D63C5A7C2AE9AB3800A9066F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D63C5A7D2AE9AB3800A9066F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D63C5A7F2AE9AB3800A9066F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W336L8PJK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MacedoViagens/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nao-tenho-org.MacedoViagens";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D63C5A802AE9AB3800A9066F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W336L8PJK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MacedoViagens/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nao-tenho-org.MacedoViagens";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D63C5A822AE9AB3800A9066F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W336L8PJK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nao-tenho-org.MacedoViagensTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacedoViagens.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacedoViagens";
+			};
+			name = Debug;
+		};
+		D63C5A832AE9AB3800A9066F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W336L8PJK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nao-tenho-org.MacedoViagensTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacedoViagens.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacedoViagens";
+			};
+			name = Release;
+		};
+		D63C5A852AE9AB3800A9066F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W336L8PJK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nao-tenho-org.MacedoViagensUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MacedoViagens;
+			};
+			name = Debug;
+		};
+		D63C5A862AE9AB3800A9066F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W336L8PJK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nao-tenho-org.MacedoViagensUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MacedoViagens;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D63C5A4F2AE9AB3500A9066F /* Build configuration list for PBXProject "MacedoViagens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63C5A7C2AE9AB3800A9066F /* Debug */,
+				D63C5A7D2AE9AB3800A9066F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D63C5A7E2AE9AB3800A9066F /* Build configuration list for PBXNativeTarget "MacedoViagens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63C5A7F2AE9AB3800A9066F /* Debug */,
+				D63C5A802AE9AB3800A9066F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D63C5A812AE9AB3800A9066F /* Build configuration list for PBXNativeTarget "MacedoViagensTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63C5A822AE9AB3800A9066F /* Debug */,
+				D63C5A832AE9AB3800A9066F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D63C5A842AE9AB3800A9066F /* Build configuration list for PBXNativeTarget "MacedoViagensUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63C5A852AE9AB3800A9066F /* Debug */,
+				D63C5A862AE9AB3800A9066F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D63C5A4C2AE9AB3500A9066F /* Project object */;
+}
