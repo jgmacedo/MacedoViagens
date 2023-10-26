@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D609379A2AEAF22E005028C2 /* HomeTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = D60937992AEAF22E005028C2 /* HomeTableViewHeader.xib */; };
+		D609379C2AEAF3CB005028C2 /* HomeTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D609379B2AEAF3CB005028C2 /* HomeTableViewHeader.swift */; };
 		D63C5A582AE9AB3500A9066F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C5A572AE9AB3500A9066F /* AppDelegate.swift */; };
 		D63C5A5A2AE9AB3500A9066F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C5A592AE9AB3500A9066F /* SceneDelegate.swift */; };
 		D63C5A5C2AE9AB3500A9066F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C5A5B2AE9AB3500A9066F /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D60937992AEAF22E005028C2 /* HomeTableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewHeader.xib; sourceTree = "<group>"; };
+		D609379B2AEAF3CB005028C2 /* HomeTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewHeader.swift; sourceTree = "<group>"; };
 		D63C5A542AE9AB3500A9066F /* MacedoViagens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacedoViagens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D63C5A572AE9AB3500A9066F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D63C5A592AE9AB3500A9066F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				D63C5A602AE9AB3800A9066F /* Assets.xcassets */,
 				D63C5A622AE9AB3800A9066F /* LaunchScreen.storyboard */,
 				D63C5A652AE9AB3800A9066F /* Info.plist */,
+				D60937992AEAF22E005028C2 /* HomeTableViewHeader.xib */,
+				D609379B2AEAF3CB005028C2 /* HomeTableViewHeader.swift */,
 			);
 			path = MacedoViagens;
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D63C5A642AE9AB3800A9066F /* LaunchScreen.storyboard in Resources */,
+				D609379A2AEAF22E005028C2 /* HomeTableViewHeader.xib in Resources */,
 				D63C5A612AE9AB3800A9066F /* Assets.xcassets in Resources */,
 				D63C5A5F2AE9AB3500A9066F /* Main.storyboard in Resources */,
 			);
@@ -259,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D63C5A5C2AE9AB3500A9066F /* ViewController.swift in Sources */,
+				D609379C2AEAF3CB005028C2 /* HomeTableViewHeader.swift in Sources */,
 				D63C5A582AE9AB3500A9066F /* AppDelegate.swift in Sources */,
 				D63C5A5A2AE9AB3500A9066F /* SceneDelegate.swift in Sources */,
 			);

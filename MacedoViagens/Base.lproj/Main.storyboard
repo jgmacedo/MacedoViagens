@@ -16,14 +16,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="lfV-re-8zW">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="lfV-re-8zW">
                                 <rect key="frame" x="0.0" y="59" width="393" height="793"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="lfV-re-8zW" secondAttribute="bottom" id="Lbj-Ov-SbS"/>
+                            <constraint firstItem="lfV-re-8zW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="dDm-T1-MbL"/>
+                            <constraint firstItem="lfV-re-8zW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="h8V-WS-4yh"/>
+                            <constraint firstItem="lfV-re-8zW" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="yAc-o5-PTF"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="viagensTableView" destination="lfV-re-8zW" id="jTy-1r-T2e"/>
