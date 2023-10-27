@@ -17,8 +17,9 @@ class ViewController: UIViewController{
         viagensTableView.dataSource = self
         viagensTableView.delegate = self
         view.backgroundColor = UIColor(red: 30.0/255.0, green: 59.0/255.0, blue: 119.00/255.0, alpha: 1)
+        
     }
-
+    
 
 }
 
@@ -37,10 +38,18 @@ extension ViewController: UITableViewDataSource{
 }
 extension ViewController: UITableViewDelegate {
     
+//    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+//        let headerView = Bundle.main.loadNibNamed("HomeTableViewHeader", owner: self, options: nil)?.first as? HomeTableViewHeader
+//        return headerView
+//    }
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        let headerView = Bundle.main.loadNibNamed("HomeTableViewHeader", owner: self, options: nil)?.first as? HomeTableViewHeader
-        return headerView
+        if let headerView = Bundle.main.loadNibNamed("HomeTableViewHeader", owner: self, options: nil)?.first as? HomeTableViewHeader {
+            headerView.configuraView() // Chame a função configuraView para configurar a view
+            return headerView
+        }
+        return nil
     }
+
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 300
     }

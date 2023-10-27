@@ -16,8 +16,6 @@
 		D63C5A612AE9AB3800A9066F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D63C5A602AE9AB3800A9066F /* Assets.xcassets */; };
 		D63C5A642AE9AB3800A9066F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D63C5A622AE9AB3800A9066F /* LaunchScreen.storyboard */; };
 		D63C5A6F2AE9AB3800A9066F /* MacedoViagensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C5A6E2AE9AB3800A9066F /* MacedoViagensTests.swift */; };
-		D63C5A792AE9AB3800A9066F /* MacedoViagensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C5A782AE9AB3800A9066F /* MacedoViagensUITests.swift */; };
-		D63C5A7B2AE9AB3800A9066F /* MacedoViagensUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C5A7A2AE9AB3800A9066F /* MacedoViagensUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +49,6 @@
 		D63C5A6A2AE9AB3800A9066F /* MacedoViagensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacedoViagensTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D63C5A6E2AE9AB3800A9066F /* MacedoViagensTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacedoViagensTests.swift; sourceTree = "<group>"; };
 		D63C5A742AE9AB3800A9066F /* MacedoViagensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacedoViagensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D63C5A782AE9AB3800A9066F /* MacedoViagensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacedoViagensUITests.swift; sourceTree = "<group>"; };
-		D63C5A7A2AE9AB3800A9066F /* MacedoViagensUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacedoViagensUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,15 +99,14 @@
 		D63C5A562AE9AB3500A9066F /* MacedoViagens */ = {
 			isa = PBXGroup;
 			children = (
-				D63C5A572AE9AB3500A9066F /* AppDelegate.swift */,
-				D63C5A592AE9AB3500A9066F /* SceneDelegate.swift */,
-				D63C5A5B2AE9AB3500A9066F /* ViewController.swift */,
+				D6E6F90F2AEC4526005AC93E /* ViewModel */,
+				D6E6F90D2AEC44F1005AC93E /* View */,
+				D6E6F90C2AEC44E0005AC93E /* Model */,
+				D6E6F90B2AEC44CB005AC93E /* AppDelegate */,
 				D63C5A5D2AE9AB3500A9066F /* Main.storyboard */,
 				D63C5A602AE9AB3800A9066F /* Assets.xcassets */,
 				D63C5A622AE9AB3800A9066F /* LaunchScreen.storyboard */,
 				D63C5A652AE9AB3800A9066F /* Info.plist */,
-				D60937992AEAF22E005028C2 /* HomeTableViewHeader.xib */,
-				D609379B2AEAF3CB005028C2 /* HomeTableViewHeader.swift */,
 			);
 			path = MacedoViagens;
 			sourceTree = "<group>";
@@ -127,10 +122,57 @@
 		D63C5A772AE9AB3800A9066F /* MacedoViagensUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D63C5A782AE9AB3800A9066F /* MacedoViagensUITests.swift */,
-				D63C5A7A2AE9AB3800A9066F /* MacedoViagensUITestsLaunchTests.swift */,
 			);
 			path = MacedoViagensUITests;
+			sourceTree = "<group>";
+		};
+		D6E6F90B2AEC44CB005AC93E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D63C5A572AE9AB3500A9066F /* AppDelegate.swift */,
+				D63C5A592AE9AB3500A9066F /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D6E6F90C2AEC44E0005AC93E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D6E6F90D2AEC44F1005AC93E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D6E6F9162AEC561C005AC93E /* Cells */,
+				D6E6F90E2AEC4504005AC93E /* Header */,
+				D63C5A5B2AE9AB3500A9066F /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D6E6F90E2AEC4504005AC93E /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				D60937992AEAF22E005028C2 /* HomeTableViewHeader.xib */,
+				D609379B2AEAF3CB005028C2 /* HomeTableViewHeader.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		D6E6F90F2AEC4526005AC93E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D6E6F9162AEC561C005AC93E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,8 +326,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D63C5A792AE9AB3800A9066F /* MacedoViagensUITests.swift in Sources */,
-				D63C5A7B2AE9AB3800A9066F /* MacedoViagensUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
