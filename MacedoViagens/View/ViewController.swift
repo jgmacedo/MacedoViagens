@@ -14,12 +14,15 @@ class ViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        viagensTableView.dataSource = self
-        viagensTableView.delegate = self
+        configuraTableView()
         view.backgroundColor = UIColor(red: 30.0/255.0, green: 59.0/255.0, blue: 119.00/255.0, alpha: 1)
         
     }
-    
+    func configuraTableView(){
+        viagensTableView.dataSource = self
+        viagensTableView.delegate = self
+        viagensTableView.register(UINib(nibName: "ViagemTableViewCell", bundle: nil), forCellReuseIdentifier: "ViagemTableViewCell")
+    }
 
 }
 
@@ -30,9 +33,8 @@ extension ViewController: UITableViewDataSource{
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: .default, reuseIdentifier: nil)
-        cell.textLabel?.text = "viagem\(indexPath.row)"
-        return cell
+        guard let celulaViagem = tableView.dequeueReusableCell(withIdentifier: "ViagemTableViewCell", for: indexPath) as? ViagemTableViewCell else {fatalError("Não foi possivel criar a celula")}
+        return celulaViagem
     }
     
 }
@@ -52,6 +54,10 @@ extension ViewController: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 300
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        400
     }
 }
 
