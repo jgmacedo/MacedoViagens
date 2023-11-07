@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="OfertaTableViewCell" id="KGk-i7-Jjw" customClass="OfertaTableViewCell" customModule="MacedoViagens" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="385"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="385"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="qC3-j5-Uo7">
+                        <rect key="frame" x="0.0" y="10" width="396.66666666666669" height="365"/>
+                        <subviews>
+                            <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="YCn-mo-L5K">
+                                <rect key="frame" x="0.0" y="0.0" width="193.33333333333334" height="365"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hBN-eS-Dzg">
+                                        <rect key="frame" x="0.0" y="0.0" width="193.33333333333334" height="170"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="170" id="Lk4-ai-clB"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="4Jt-pv-Dbc">
+                                        <rect key="frame" x="10" y="190" width="173.33333333333334" height="77.666666666666686"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AÉREO + HOTEL" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pko-pw-cOt">
+                                                <rect key="frame" x="0.0" y="0.0" width="173.33333333333334" height="19.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gramado + Rota do Chocolate" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vbl-b1-Qhc">
+                                                <rect key="frame" x="0.0" y="22.333333333333343" width="173.33333333333334" height="15.666666666666664"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A partir de 2500" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Njs-kL-CH2">
+                                                <rect key="frame" x="0.0" y="41" width="173.33333333333334" height="15.666666666666664"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="jJz-vZ-15I">
+                                                <rect key="frame" x="0.0" y="59.666666666666686" width="173.33333333333334" height="18"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$ 590" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="57W-Tq-mQ8">
+                                                        <rect key="frame" x="0.0" y="0.0" width="70" height="18"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="70" id="0z2-ds-ibE"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                                        <color key="textColor" systemColor="systemOrangeColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="em até 12x" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZIU-BK-hbO">
+                                                        <rect key="frame" x="71" y="0.0" width="102.33333333333331" height="18"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="11"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="hBN-eS-Dzg" secondAttribute="trailing" id="9c8-iA-A1o"/>
+                                    <constraint firstItem="4Jt-pv-Dbc" firstAttribute="leading" secondItem="YCn-mo-L5K" secondAttribute="leading" constant="10" id="KO7-7c-D6H"/>
+                                    <constraint firstAttribute="trailing" secondItem="4Jt-pv-Dbc" secondAttribute="trailing" constant="10" id="M3g-Ms-hdX"/>
+                                    <constraint firstItem="hBN-eS-Dzg" firstAttribute="top" secondItem="YCn-mo-L5K" secondAttribute="top" id="QtP-n4-FrQ"/>
+                                    <constraint firstItem="hBN-eS-Dzg" firstAttribute="leading" secondItem="YCn-mo-L5K" secondAttribute="leading" id="l8Z-Ac-bTb"/>
+                                    <constraint firstItem="4Jt-pv-Dbc" firstAttribute="top" secondItem="hBN-eS-Dzg" secondAttribute="bottom" constant="20" id="lj9-Ja-5Tb"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VXL-d9-WNs">
+                                <rect key="frame" x="203.33333333333331" y="0.0" width="193.33333333333331" height="365"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="05N-xD-cK5">
+                                        <rect key="frame" x="0.0" y="0.0" width="193.33333333333334" height="170"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="170" id="4UU-Fn-zG5"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="1rU-Z9-F4w">
+                                        <rect key="frame" x="10" y="190" width="173.33333333333334" height="77.666666666666686"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AÉREO + HOTEL" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mr6-hz-Gud">
+                                                <rect key="frame" x="0.0" y="0.0" width="173.33333333333334" height="19.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gramado + Rota do Chocolate" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SCD-2s-GVf">
+                                                <rect key="frame" x="0.0" y="22.333333333333343" width="173.33333333333334" height="15.666666666666664"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A partir de 2500" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YEi-1v-iGU">
+                                                <rect key="frame" x="0.0" y="41" width="173.33333333333334" height="15.666666666666664"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="sdF-h9-MZ9">
+                                                <rect key="frame" x="0.0" y="59.666666666666686" width="173.33333333333334" height="18"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$ 590" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5pN-AB-blN">
+                                                        <rect key="frame" x="0.0" y="0.0" width="86.333333333333329" height="18"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="70" id="VUb-rp-vBh"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                                        <color key="textColor" systemColor="systemOrangeColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="em até 12x" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ruI-Xb-Ioq">
+                                                        <rect key="frame" x="87.333333333333343" y="0.0" width="86" height="18"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="11"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="05N-xD-cK5" firstAttribute="top" secondItem="VXL-d9-WNs" secondAttribute="top" id="2EB-gA-PnC"/>
+                                    <constraint firstItem="1rU-Z9-F4w" firstAttribute="top" secondItem="05N-xD-cK5" secondAttribute="bottom" constant="20" id="3BU-mY-D0b"/>
+                                    <constraint firstAttribute="trailing" secondItem="05N-xD-cK5" secondAttribute="trailing" id="90f-2r-bad"/>
+                                    <constraint firstAttribute="trailing" secondItem="1rU-Z9-F4w" secondAttribute="trailing" constant="10" id="Af1-Ud-Vpc"/>
+                                    <constraint firstItem="1rU-Z9-F4w" firstAttribute="leading" secondItem="VXL-d9-WNs" secondAttribute="leading" constant="10" id="ZGE-jg-O3M"/>
+                                    <constraint firstItem="05N-xD-cK5" firstAttribute="leading" secondItem="VXL-d9-WNs" secondAttribute="leading" id="haY-sc-z8G"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="qC3-j5-Uo7" secondAttribute="trailing" id="OIK-My-uMb"/>
+                    <constraint firstAttribute="bottom" secondItem="qC3-j5-Uo7" secondAttribute="bottom" constant="10" id="Td4-sO-RmI"/>
+                    <constraint firstItem="qC3-j5-Uo7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="dQN-0b-qLz"/>
+                    <constraint firstItem="qC3-j5-Uo7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="qTq-Je-c4b"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outletCollection property="viagemImages" destination="hBN-eS-Dzg" collectionClass="NSMutableArray" id="vEt-PG-iwR"/>
+                <outletCollection property="viagemImages" destination="05N-xD-cK5" collectionClass="NSMutableArray" id="QBd-jg-ydv"/>
+                <outletCollection property="tituloViagemLabels" destination="pko-pw-cOt" collectionClass="NSMutableArray" id="rjw-qM-B2j"/>
+                <outletCollection property="tituloViagemLabels" destination="mr6-hz-Gud" collectionClass="NSMutableArray" id="H5v-tQ-0dC"/>
+                <outletCollection property="subtituloViagemLabels" destination="SCD-2s-GVf" collectionClass="NSMutableArray" id="3K5-4I-6Zp"/>
+                <outletCollection property="subtituloViagemLabels" destination="Vbl-b1-Qhc" collectionClass="NSMutableArray" id="Uoy-zg-MnW"/>
+                <outletCollection property="precoLabels" destination="57W-Tq-mQ8" collectionClass="NSMutableArray" id="b3a-yj-zoU"/>
+                <outletCollection property="precoLabels" destination="5pN-AB-blN" collectionClass="NSMutableArray" id="1zo-Tf-Ews"/>
+                <outletCollection property="precoSemDescontoLabels" destination="Njs-kL-CH2" collectionClass="NSMutableArray" id="0Pg-8l-CpU"/>
+                <outletCollection property="precoSemDescontoLabels" destination="YEi-1v-iGU" collectionClass="NSMutableArray" id="cQz-eX-7oy"/>
+                <outletCollection property="fundoViews" destination="YCn-mo-L5K" collectionClass="NSMutableArray" id="vTV-ge-cu6"/>
+                <outletCollection property="fundoViews" destination="VXL-d9-WNs" collectionClass="NSMutableArray" id="rhO-j6-pwp"/>
+            </connections>
+            <point key="canvasLocation" x="129.7709923664122" y="-11.619718309859156"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
