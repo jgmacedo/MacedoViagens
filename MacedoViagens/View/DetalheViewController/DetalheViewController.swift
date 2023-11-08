@@ -16,6 +16,19 @@ class DetalheViewController: UIViewController {
     @IBOutlet weak var tituloViagemLabel: UILabel!
     @IBOutlet weak var subtituloViagemLabel: UILabel!
     
+    //MARK: -Atributos
+    
+    var viagem:Viagem?
+    
+    //MARK: -View Life Cycle
+    
+    class func instanciar(_ viagem:Viagem) -> DetalheViewController{
+        let detalhesViewController = DetalheViewController(nibName: "DetalheViewController", bundle: nil)
+        detalhesViewController.viagem = viagem
+        
+        return detalhesViewController
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

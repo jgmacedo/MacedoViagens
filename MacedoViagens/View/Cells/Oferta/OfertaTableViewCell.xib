@@ -83,7 +83,7 @@
                                     <constraint firstItem="4Jt-pv-Dbc" firstAttribute="top" secondItem="hBN-eS-Dzg" secondAttribute="bottom" constant="20" id="lj9-Ja-5Tb"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VXL-d9-WNs">
+                            <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VXL-d9-WNs">
                                 <rect key="frame" x="203.33333333333331" y="0.0" width="193.33333333333331" height="365"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="05N-xD-cK5">

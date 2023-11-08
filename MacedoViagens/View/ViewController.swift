@@ -25,6 +25,12 @@ class ViewController: UIViewController{
         viagensTableView.register(UINib(nibName: "OfertaTableViewCell", bundle: nil), forCellReuseIdentifier: "OfertaTableViewCell")
     }
 
+    func irParaDetalhe(_ viagem:Viagem?){
+        if let viagemSelecionada = viagem{
+            let detalheController = DetalheViewController.instanciar(viagemSelecionada)
+            navigationController?.pushViewController(detalheController, animated: true)
+        }
+    }
 }
 
 extension ViewController: UITableViewDataSource{
@@ -53,6 +59,7 @@ extension ViewController: UITableViewDataSource{
         case .ofertas:
             guard let celulaOferta = tableView.dequeueReusableCell(withIdentifier: "OfertaTableViewCell") as? OfertaTableViewCell else {fatalError("Não foi possivel criar a celula")
             }
+            celulaOferta.delegate = self
             celulaOferta.configuraCelula(viewModel?.viagens)
             return celulaOferta
             
@@ -65,8 +72,18 @@ extension ViewController: UITableViewDataSource{
 extension ViewController: UITableViewDelegate {
      
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let detalheController = DetalheViewController(nibName: "DetalheViewController", bundle: nil)
-        navigationController?.pushViewController(detalheController, animated: true)
+        
+        let viewModel = sessaoDeViagens?[indexPath.section]
+        switch viewModel?.tipo {
+        case .destaques, .internacionais:
+            let viagemSelecionada = viewModel?.viagens[indexPath.row]
+            irParaDetalhe(viagemSelecionada)
+        default:
+            break
+        }
+        
+        
+        
     }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
@@ -90,8 +107,9 @@ extension ViewController: UITableViewDelegate {
         400
     }
 }
-protocol OfertaTableViewCellDelegate: AnyObject {
-    func didSelectCell(_ cell: OfertaTableViewCell)
+
+extension ViewController: OfertaTableViewCellDelegate{
+    func didSelectView(_ viagem: Viagem?) {
+        irParaDetalhe(viagem)
+    }
 }
-
-
