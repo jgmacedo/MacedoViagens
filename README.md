@@ -4,7 +4,7 @@ Este repositório do GitHub contém um resumo do que foi aprendido em meu curso 
 
 ## Objetivo do Curso
 
-O principal objetivo do curso foi demonstrar como criar layouts de interface de usuário complexos e flexíveis para aplicativos iOS usando componentes como Table Views, Stack Views, Auto Layout e outros.
+O principal objetivo do curso foi demonstrar como criar layouts de interface de usuário para aplicativos iOS usando componentes como Table Views, Stack Views, Auto Layout e outros.
 
 ## Conteúdo do Curso
 
@@ -30,12 +30,7 @@ O principal objetivo do curso foi demonstrar como criar layouts de interface de 
 ### 6. Configuração do ViewController de Detalhes
 - Criação do ViewController de detalhes, configuração de outlets e recebimento de parâmetros para exibir informações da viagem selecionada.
 
-## Recomendações Pessoais
-O instrutor do curso forneceu algumas recomendações pessoais para os alunos:
-
-- Continuar praticando o uso de Constraints e Stack Views.
-- Desafiar-se criando layouts de aplicativos existentes por conta própria.
-- Estar disposto a rever conceitos conforme necessário.
+## Considerações Finais
 
 Este repositório serve como um resumo do conteúdo do curso e pode ser útil como referência para futuros projetos de desenvolvimento de aplicativos iOS. Se você tiver alguma dúvida ou precisar de mais informações sobre qualquer um dos tópicos abordados no curso, sinta-se à vontade para explorar o código e os recursos aqui disponíveis.
 
