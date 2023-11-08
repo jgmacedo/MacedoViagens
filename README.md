@@ -1,4 +1,4 @@
-# Curso de Desenvolvimento de Aplicativos iOS - Resumo
+# Cursos: "iOS layout: mais recursos para criar telas responsivas" e "iOS: auto layout com Constraints"
 
 Este repositório do GitHub contém um resumo do que foi aprendido em meu curso de desenvolvimento de aplicativos iOS. O curso abordou diversos tópicos relacionados à criação de layouts de interface de usuário usando Table Views, Stack Views, Auto Layout e outros componentes importantes. Aqui está um resumo do que foi coberto no curso:
 
